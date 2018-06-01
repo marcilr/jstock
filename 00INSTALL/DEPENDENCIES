@@ -3,8 +3,28 @@ Created Fri Jun  1 08:56:14 AKDT 2018
 Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-jave: General Purpose Java 5 Environment Dependencies
+java: General Purpose Java 5 Environment Dependencies
       https://github.com/yccheok/jstock/tree/master/libs/drive
+
+$ cd /usr/lib/jvm/
+$ find . -name java | xargs md5sum
+21ed64abba84b8e9ae17187e60a562c0  ./java-7-openjdk-amd64/jre/bin/java
+21ed64abba84b8e9ae17187e60a562c0  ./java-7-openjdk-amd64/bin/java
+43a0a3f19f8fe6bc549205bee1d2d823  ./java-6-openjdk-amd64/jre/bin/java
+43a0a3f19f8fe6bc549205bee1d2d823  ./java-6-openjdk-amd64/bin/java
+dc43963c63380eb09c585e58c9320666  ./java-8-openjdk-amd64/jre/bin/java
+dc43963c63380eb09c585e58c9320666  ./java-8-openjdk-amd64/bin/java
+$
+
+$ md5sum /usr/bin/java
+dc43963c63380eb09c585e58c9320666  /usr/bin/java
+$
+
+Looks like the currently installed java version is from:
+  $ md5sum /usr/lib/jvm/java-8-openjdk-amd64/bin/java
+  dc43963c63380eb09c585e58c9320666  /usr/lib/jvm/java-8-openjdk-amd64/bin/java
+  $
+
 
 Environement Variables:
   CLASSPATH
