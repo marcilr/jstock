@@ -6,7 +6,10 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Getting "Graphics Device initialization failed for :  es2, sw"
-error when running jstock on initial installation:
+error when running jstock on initial installation.
+
+NOTE: "java -jar jstock.jar" yields same error message
+
 
 $ ./jstock.sh 
 Graphics Device initialization failed for :  es2, sw
