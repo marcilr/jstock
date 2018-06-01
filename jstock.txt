@@ -42,7 +42,7 @@ https://jstock.org/
 JStock features
 https://jstock.org/features.html
 
-JStock source
+JStock code
 yccheok/jstock
 https://github.com/yccheok/jstock
 
