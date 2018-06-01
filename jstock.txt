@@ -3,8 +3,7 @@ Created Thu May 31 16:39:13 AKDT 2018
 Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-JStock
-Free Stock Market Software
+JStock - Free Stock Market Software
 
 JStock is a free stock market software for 28 countries.  It provides
 Stock watchlist, Stock indicator editor, Stock indicator scanner and
@@ -30,6 +29,20 @@ to provide U.S. stock trading.  For commission, you pay as low as
 $0.99 per fractional share traded and $2.99 per trade for orders
 greater than a full share.  Visit https://investing.jstock.co to learn more.
 --jstock.org/features.html
+
+
+Thu May 31 16:43:32 AKDT 2018
+=============================
+o Run jstock with:
+  $ cd jstock
+  $ ./jstock.sh
+
+Runs good!
+
+o Initial test of jstock-1.0.7.32-bin.zip under /usr/local/src/jstock/
+  Only dependency was the openjfx package:
+    openjfx - JavaFX/OpenJFX 8 - Rich client application platform for Java
+
 
 
 
