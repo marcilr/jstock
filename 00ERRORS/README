@@ -1,0 +1,10 @@
+README
+Created Fri Jun  1 09:14:12 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+Graphics-Device-initialization-failed-for-es2-sw-20180601.txt
+  Getting "Graphics Device initialization failed for :  es2, sw"
+  error when running jstock on initial installation
