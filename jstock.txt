@@ -4,6 +4,23 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 JStock
+Free Stock Market Software
+
+
+Features
+========
+o Low commission U.S. stocks trading
+o Practive trading risk-free
+o Multiple deposit options
+--jstock.org/features.html
+
+
+JStock is partnering with DriveWealth, a U.S. broker-dealer company
+to provide U.S. stock trading.  For commission, you pay as low as
+$0.99 per fractional share traded and $2.99 per trade for orders
+greater than a full share.  Visit https://investing.jstock.co to learn more.
+--jstock.org/features.html
+
 
 
 Links
@@ -11,3 +28,6 @@ Links
 JStock
 Free Stock Market Software
 https://jstock.org/
+
+JStock features
+https://jstock.org/features.html
