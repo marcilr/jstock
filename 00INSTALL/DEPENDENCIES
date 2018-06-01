@@ -1,0 +1,53 @@
+DEPENDENCIES
+Created Fri Jun  1 08:56:14 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+jave: General Purpose Java 5 Environment Dependencies
+      https://github.com/yccheok/jstock/tree/master/libs/drive
+
+Environement Variables:
+  CLASSPATH
+  JAVA_HOME
+
+Directories:
+  /usr/lib/java/java/
+    swt-gtk-3.8.2.jar
+
+  /usr/lib/java/jni/
+
+  /usr/lib/jvm/
+    default-java -> java-1.8.0-openjdk-amd64/
+    java-1.5.0-gcj-6-amd64/
+    java-1.6.0-openjdk-amd64 -> java-6-openjdk-amd64/
+    .java-1.6.0-openjdk-amd64.jinfo
+    java-1.7.0-openjdk-amd64 -> java-7-openjdk-amd64/
+    .java-1.7.0-openjdk-amd64.jinfo
+    java-1.8.0-openjdk-amd64/
+    .java-1.8.0-openjdk-amd64.jinfo
+    java-6-openjdk-amd64/
+    java-6-openjdk-common/
+    java-7-openjdk-amd64/
+    java-8-openjdk-amd64/
+
+
+
+$ type java
+java is /usr/bin/java
+$
+
+$ md5sum /usr/bin/java
+dc43963c63380eb09c585e58c9320666  /usr/bin/java
+$
+
+$ java -version
+openjdk version "1.8.0_141"
+OpenJDK Runtime Environment (build 1.8.0_141-8u141-b15-1~deb9u1-b15)
+OpenJDK 64-Bit Server VM (build 25.141-b15, mixed mode)
+$
+
+
+Links
+=====
+Java EE SDK Downloads
+http://www.oracle.com/technetwork/java/javaee/downloads/java-archive-downloads-eesdk-419427.html
