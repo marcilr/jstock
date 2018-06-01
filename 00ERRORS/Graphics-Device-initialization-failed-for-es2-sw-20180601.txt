@@ -1,0 +1,71 @@
+Graphics-Device-initialization-failed-for-es2-sw-20180601.txt
+Created Fri Jun  1 09:15:26 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+
+Getting "Graphics Device initialization failed for :  es2, sw"
+error when running jstock on initial installation:
+
+$ ./jstock.sh 
+Graphics Device initialization failed for :  es2, sw
+Error initializing QuantumRenderer: no suitable pipeline found
+java.lang.RuntimeException: java.lang.RuntimeException: Error initializing QuantumRenderer: no suitable pipeline found
+	at com.sun.javafx.tk.quantum.QuantumRenderer.getInstance(QuantumRenderer.java:280)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.init(QuantumToolkit.java:221)
+	at com.sun.javafx.tk.Toolkit.getToolkit(Toolkit.java:248)
+	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:209)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:215)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:230)
+	at org.yccheok.jstock.gui.trading.TradingJPanel.<init>(TradingJPanel.java:81)
+	at org.yccheok.jstock.gui.JStock.createTradingJPanel(JStock.java:2147)
+	at org.yccheok.jstock.gui.JStock.init(JStock.java:123)
+	at org.yccheok.jstock.gui.JStock.access$4900(JStock.java:84)
+	at org.yccheok.jstock.gui.JStock$42.run(JStock.java:1899)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at org.GNOME.Accessibility.AtkWrapper$5.dispatchEvent(AtkWrapper.java:700)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.RuntimeException: Error initializing QuantumRenderer: no suitable pipeline found
+	at com.sun.javafx.tk.quantum.QuantumRenderer$PipelineRunnable.init(QuantumRenderer.java:94)
+	at com.sun.javafx.tk.quantum.QuantumRenderer$PipelineRunnable.run(QuantumRenderer.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "AWT-EventQueue-1" java.lang.RuntimeException: No toolkit found
+	at com.sun.javafx.tk.Toolkit.getToolkit(Toolkit.java:260)
+	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:209)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:215)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:230)
+	at org.yccheok.jstock.gui.trading.TradingJPanel.<init>(TradingJPanel.java:81)
+	at org.yccheok.jstock.gui.JStock.createTradingJPanel(JStock.java:2147)
+	at org.yccheok.jstock.gui.JStock.init(JStock.java:123)
+	at org.yccheok.jstock.gui.JStock.access$4900(JStock.java:84)
+	at org.yccheok.jstock.gui.JStock$42.run(JStock.java:1899)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at org.GNOME.Accessibility.AtkWrapper$5.dispatchEvent(AtkWrapper.java:700)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+ctrl-c
+$
