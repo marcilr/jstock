@@ -4,7 +4,48 @@ Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 
+Solutions
+=========
+Install the openjfx package dependency:
+  openjfx - JavaFX/OpenJFX 8 - Rich client application platform for Java
 
+--github.com/yccheok/jstock/issues/83
+
+
+# aptitude install openjfx
+The following NEW packages will be installed:
+  libopenjfx-java{a} libopenjfx-jni{a} openjfx 
+0 packages upgraded, 3 newly installed, 0 to remove and 3 not upgraded.
+Need to get 18.4 MB of archives. After unpacking 50.6 MB will be used.
+Do you want to continue? [Y/n/?] Y
+Get: 1 http://ftp.us.debian.org/debian stable/main amd64 libopenjfx-jni amd64 8u111-b14-1 [8,493 kB]
+3% [1 libopenjfx-jni 498 kB/8,493 kB 6%] 
+...
+Get: 2 http://ftp.us.debian.org/debian stable/main amd64 libopenjfx-java all 8u111-b14-1 [9,912 kB]
+60% [2 libopenjfx-java 2,533 kB/9,912 kB 26%]
+...
+Get: 3 http://ftp.us.debian.org/debian stable/main amd64 openjfx amd64 8u111-b14-1 [34.7 kB]                                       
+Fetched 18.4 MB in 3min 12s (95.8 kB/s)  
+Selecting previously unselected package libopenjfx-jni.
+(Reading database ... 275279 files and directories currently installed.)
+Preparing to unpack .../libopenjfx-jni_8u111-b14-1_amd64.deb ...
+Unpacking libopenjfx-jni (8u111-b14-1) ...
+Selecting previously unselected package libopenjfx-java.
+Preparing to unpack .../libopenjfx-java_8u111-b14-1_all.deb ...
+Unpacking libopenjfx-java (8u111-b14-1) ...
+Selecting previously unselected package openjfx.
+Preparing to unpack .../openjfx_8u111-b14-1_amd64.deb ...
+Unpacking openjfx (8u111-b14-1) ...
+Setting up libopenjfx-jni (8u111-b14-1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up libopenjfx-java (8u111-b14-1) ...
+Setting up openjfx (8u111-b14-1) ...
+                                         
+# 
+
+
+Error
+=====
 Getting "Graphics Device initialization failed for :  es2, sw"
 error when running jstock on initial installation.
 
@@ -72,3 +113,11 @@ Exception in thread "AWT-EventQueue-1" java.lang.RuntimeException: No toolkit fo
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 ctrl-c
 $
+
+
+Links
+=====
+Graphics Device initialization failed for : es2, sw on Ubuntu #83
+Open mberrueta opened this issue on Jan 16, 2017 · 3 comments
+yccheok/jstock
+https://github.com/yccheok/jstock/issues/83
