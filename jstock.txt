@@ -1,0 +1,13 @@
+jstock.txt
+Created Thu May 31 16:39:13 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+JStock
+
+
+Links
+=====
+JStock
+Free Stock Market Software
+https://jstock.org/
