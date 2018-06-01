@@ -26,33 +26,24 @@ Archive:  jstock-1.0.7.32-bin.zip
   inflating: jstock/lib/xstream-1.4.2.jar
 $
 
-4. Also took dependencies:
+4. Install dependencies:
 # aptitude install libgtk-3-dev
 # aptitude install libswt-gtk-3-java
-
---Graphics Device initialization failed for : es2, sw
-  https://askubuntu.com/questions/600657/graphics-device-initialization-failed-for-es2-sw?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa 
+# aptitude install openjfx  
 
 5. Run jstock
 $ cd jstock
 $ chmod 755 jstock.sh
 $ ./jstock
-Graphics Device initialization failed for :  es2, sw
-Error initializing QuantumRenderer: no suitable pipeline found
-java.lang.RuntimeException: java.lang.RuntimeException: Error initializing QuantumRenderer: no suitable pipeline found
-	at com.sun.javafx.tk.quantum.QuantumRenderer.getInstance(QuantumRenderer.java:280)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.init(QuantumToolkit.java:221)
-	at com.sun.javafx.tk.Toolkit.getToolkit(Toolkit.java:248)
-...
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-ctrl-c
-$
-
 
 
 Links
 =====
+Graphics Device initialization failed for : es2, sw on Ubuntu #83
+Open mberrueta opened this issue on Jan 16, 2017 · 3 comments
+o Has openjfx package dependency for error
+https://github.com/yccheok/jstock/issues/83
+
 How to install JStock on Linux?
 https://jstock.org/help_install_upgrade.html#install-linux
 
