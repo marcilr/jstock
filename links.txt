@@ -8,6 +8,9 @@ JSTock related links
 
 Links
 =====
+Graphics Device initialization failed for : es2, sw
+https://askubuntu.com/questions/600657/graphics-device-initialization-failed-for-es2-sw
+
 Install The JStock, Stock Market "Tracker" in Ubuntu/Linux
 My Geek Opinions
 http://mygeekopinions.blogspot.com/2011/05/install-jstock-stock-market-tracker-in.html
@@ -16,3 +19,8 @@ JStock
 Free Stock Market Software
 https://jstock.org/
 
+JStock Installation & Upgrade
+https://jstock.org/help_install_upgrade.html
+
+JStock source
+https://github.com/yccheok/jstock/
